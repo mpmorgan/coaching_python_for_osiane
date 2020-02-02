@@ -1,0 +1,43 @@
+Au Sommaire : 
+-Opérations courante
+>>> 3 + 4
+7
+-Les variables 
+>>> mon_age = 23
+>>> mon_age
+23
+
+-Les types
+>>> a = 3
+>>> type(a)
+<class 'int'>
+-La fonction print
+print("Hello World !")
+Hello World
+
+-Les structures conditionnelles (if, elif, else)
+>>> a = 0
+>>> if a > 0: # Positif
+...     print("a est positif.")
+... elif a < 0: # Négatif
+...     print("a est négatif.")
+... else: # Nul
+print("a est nul.")
+a est nul
+
+-Les boucles(while, for)
+nb = 7 # On déclare le nombre dont on veut latable de multiplication
+i = 0 # C'est notre variable compteur que nous allons incrémenter dans la boucle
+while i < 10: # Tant que i est strictement inférieure à 10
+	print(i + 1, "*", nb, "=", (i + 1) * nb)
+	i += 1 # On incrémente i de 1 à chaque tour de boucle
+1 * 7 = 7
+2 * 7 = 14
+3 * 7 = 21
+4 * 7 = 28
+5 * 7 = 35
+6 * 7 = 42
+7 * 7 = 49
+8 * 7 = 56
+9 * 7 = 63
+10 * 7 = 70
